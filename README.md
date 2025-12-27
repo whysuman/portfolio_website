@@ -12,5 +12,4 @@
    ```
 
 ### Important
-- This project is configured to deploy to `https://<github-username>.github.io/portfolio_website/`.
-- If your repository name is different, update `base` in `vite.config.js` to `/<your-repo-name>/`.
+- This project uses a relative `base` in `vite.config.js` so it works on GitHub Pages for any repo name.

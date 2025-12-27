@@ -1,0 +1,16 @@
+# Portfolio Website
+
+## Deploy to GitHub Pages
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Build and publish:
+   ```bash
+   npm run deploy
+   ```
+
+### Important
+- This project uses a relative `base` in `vite.config.js` so it works on GitHub Pages for any repo name.
+- In your repository settings, set **Pages** to deploy from the `gh-pages` branch and the `/ (root)` folder.
